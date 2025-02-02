@@ -1,0 +1,180 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: rgb(66, 66, 66);
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: beige;
+}
+
+legend {
+    font-weight: 600;
+    color: darkslategray;
+    padding: 0 12px;
+    font-size: 1.2em;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.95em;
+    color: darkolivegreen;
+}
+
+/* Input and textarea styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button styling */
+button {
+    display: inline-block;  /* Allow button to shrink and align center */
+    width: auto;            /* Let the button be smaller based on its content */
+    padding: 8px 16px;      /* Smaller padding for a compact button */
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.95em;       /* Slightly smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;         /* Center button horizontally */
+    text-align: center;
+    margin-left: 24px;
+}
+
+
+/* Resume styling */
+.resume-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.resume-header h1 {
+    color: #1f2d3d;
+    font-size: 2em;
+}
+
+.resume-header img {
+    max-width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.6em;
+}
+
+.resume-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.resume-section strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.work-experience {
+    margin-bottom: 20px;
+}
+
+.work-experience h3 {
+    font-size: 1.3em;
+    color: #1f2d3d;
+}
+
+.work-experience p {
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}
